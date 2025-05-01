@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: JSON to CSV Converter",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/json_to_csv_converter.py",
+            "args": ["${workspaceFolder}/input.json"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "name": "Python: JSON to CSV (with output file)",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/json_to_csv_converter.py",
+            "args": ["${workspaceFolder}/input.json", "${workspaceFolder}/output.csv"],
+            "console": "integratedTerminal",
+            "justMyCode": true
+        }
+    ]
+}
